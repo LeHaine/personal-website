@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Segment, Grid, Header, Image } from "semantic-ui-react";
-import logo from "../../static/logo.png";
+import { Segment, Grid, Header } from "semantic-ui-react";
 
 class AboutSegment extends Component {
     render() {
