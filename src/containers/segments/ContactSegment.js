@@ -11,6 +11,8 @@ class ContactSegment extends Component {
                             <a
                                 className="contactLink"
                                 href="https://github.com/lehaine"
+                                rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 Github
                             </a>
@@ -20,6 +22,8 @@ class ContactSegment extends Component {
                             <a
                                 className="contactLink"
                                 href="https://www.linkedin.com/in/colton-daily-6958a99b/"
+                                rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 LinkedIn
                             </a>
@@ -29,6 +33,8 @@ class ContactSegment extends Component {
                             <a
                                 className="contactLink"
                                 href="mailto:colt.daily@gmail.com"
+                                rel="noopener noreferrer"
+                                target="_blank"
                             >
                                 Email
                             </a>

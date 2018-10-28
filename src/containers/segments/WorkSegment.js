@@ -16,7 +16,11 @@ class WorkSegment extends Component {
                             </Header>
                             <p style={{ fontSize: "1.33em" }}>
                                 Currently working at:{" "}
-                                <a href="https://www.optimo-it.com/">
+                                <a
+                                    href="https://www.optimo-it.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
                                     OPTiMO - IT
                                 </a>
                             </p>
