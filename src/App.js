@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/sagessky/PrivacyPolicy";
 import "./App.css";
