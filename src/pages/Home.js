@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
             <ResponsiveContainer className="Home">
-                <AboutSegment />
+                <AboutSegment id="about" />
             </ResponsiveContainer>
         );
     }

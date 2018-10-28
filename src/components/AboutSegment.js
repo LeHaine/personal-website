@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Segment, Grid, Button, Header, Image } from "semantic-ui-react";
+import { Segment, Grid, Button, Header } from "semantic-ui-react";
 
 class AboutSegment extends Component {
     render() {
@@ -12,6 +12,11 @@ class AboutSegment extends Component {
                                 About me
                             </Header>
                             <p style={{ fontSize: "1.33em" }}>lorem ipsum</p>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column width={12}>
+                            <Button size="big">Resume</Button>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>

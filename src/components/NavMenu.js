@@ -13,9 +13,6 @@ class NavMenu extends Component {
                 <Menu.Item as="a" href="#about">
                     About me
                 </Menu.Item>
-                <Menu.Item as="a" href="#skills">
-                    Skills
-                </Menu.Item>
                 <Menu.Item as="a" href="#work">
                     Work
                 </Menu.Item>
