@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
+import logo from "../static/logo.png";
 import { Image, Menu, Container } from "semantic-ui-react";
 
 class NavMenu extends Component {
@@ -8,7 +8,6 @@ class NavMenu extends Component {
             <Container className="NavMenu">
                 <Menu.Item as="a" header>
                     <Image size="mini" src={logo} />
-                    Colt Daily
                 </Menu.Item>
                 <Menu.Item as="a" href="#about">
                     About me
