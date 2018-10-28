@@ -57,7 +57,7 @@ class AboutSegment extends Component {
                                 Games
                             </Header>
                             <p>
-                                Indie game developer with bunch of projects
+                                Indie game developer with a variety of projects
                                 spread across mobile and web.
                             </p>
                         </Grid.Column>
