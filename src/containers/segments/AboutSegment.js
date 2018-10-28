@@ -17,7 +17,7 @@ class AboutSegment extends Component {
                             </Header>
                             <p style={{ fontSize: "1.33em" }}>
                                 My name is Colton Daily. I am a software
-                                engineer that can work with a wide range of
+                                engineer able to work with a wide range of
                                 technologies.
                             </p>
                         </Grid.Column>
