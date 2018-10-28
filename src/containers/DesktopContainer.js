@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Container, Segment, Responsive } from "semantic-ui-react";
+import { Menu, Segment, Responsive } from "semantic-ui-react";
 import NavMenu from "../components/NavMenu";
 
 class DesktopContainer extends Component {

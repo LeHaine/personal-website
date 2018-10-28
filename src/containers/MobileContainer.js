@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {
-    Image,
     Container,
     Icon,
     Menu,
@@ -8,7 +7,6 @@ import {
     Sidebar,
     Responsive
 } from "semantic-ui-react";
-import logo from "../logo.svg";
 import NavMenu from "../components/NavMenu";
 
 class MobileContainer extends Component {

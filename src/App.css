@@ -1,11 +1,17 @@
 .App {
     text-align: center;
-}
-.About {
     color: #8d99ae;
     background-color: #edf2f4;
 }
 
-.About h3.ui.header {
+.PrivacyPolicy {
+    text-align: left;
+}
+
+.App h3.ui.header {
     color: #2b2d42;
+}
+
+.contactLink {
+    font-size: 1.33em;
 }
