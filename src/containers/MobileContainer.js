@@ -29,7 +29,7 @@ class MobileContainer extends Component {
                     <Sidebar
                         as={Menu}
                         animation="overlay"
-                        inverted
+                        style={{ backgroundColor: "#edf2f4" }}
                         vertical
                         visible={this.state.sidebarOpened}
                     >
@@ -41,9 +41,17 @@ class MobileContainer extends Component {
                         onClick={this.handlePusherClick}
                         style={{ minHeight: "100vh" }}
                     >
-                        <Segment inverted textAlign="center" vertical>
+                        <Segment
+                            style={{ backgroundColor: "#edf2f4" }}
+                            textAlign="center"
+                            vertical
+                        >
                             <Container>
-                                <Menu inverted pointing secondary size="large">
+                                <Menu
+                                    style={{ backgroundColor: "#edf2f4" }}
+                                    secondary
+                                    size="large"
+                                >
                                     <Menu.Item onClick={this.handleToggle}>
                                         <Icon name="sidebar" />
                                     </Menu.Item>

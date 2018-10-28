@@ -7,7 +7,7 @@ class DesktopContainer extends Component {
         return (
             <Responsive minWidth={Responsive.onlyTablet.minWidth}>
                 <Segment inverted textAlign="center" vertical>
-                    <Menu fixed="top" inverted>
+                    <Menu fixed="top" style={{ backgroundColor: "#edf2f4" }}>
                         <NavMenu />
                     </Menu>
                 </Segment>
