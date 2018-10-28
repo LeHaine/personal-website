@@ -44,7 +44,7 @@ class ProjectsSegment extends Component {
                             </a>
                             {" - "}
                             <a
-                                href="link"
+                                href="https://itunes.apple.com/us/app/sages-sky/id1025486003?mt=8"
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
