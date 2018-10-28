@@ -38,7 +38,7 @@ class AboutSegment extends Component {
                                 Backend
                             </Header>
                             <p>
-                                Backend developer with experience RESTful
+                                Backend developer experience in RESTful
                                 services, databases, large data processing,
                                 NodeJS, and more.
                             </p>
