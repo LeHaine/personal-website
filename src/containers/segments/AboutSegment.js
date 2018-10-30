@@ -17,7 +17,7 @@ class AboutSegment extends Component {
                             </Header>
                             <p style={{ fontSize: "1.33em" }}>
                                 My name is Colton Daily. I am a software
-                                engineer that can work with a wide range of
+                                engineer able to work with a wide range of
                                 technologies.
                             </p>
                         </Grid.Column>
@@ -38,7 +38,7 @@ class AboutSegment extends Component {
                                 Backend
                             </Header>
                             <p>
-                                Backend developer with experience RESTful
+                                Backend developer experience in RESTful
                                 services, databases, large data processing,
                                 NodeJS, and more.
                             </p>
@@ -57,7 +57,7 @@ class AboutSegment extends Component {
                                 Games
                             </Header>
                             <p>
-                                Indie game developer with bunch of projects
+                                Indie game developer with a variety of projects
                                 spread across mobile and web.
                             </p>
                         </Grid.Column>
