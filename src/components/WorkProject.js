@@ -10,7 +10,7 @@ class WorkProject extends Component {
                         <Grid.Column width={5}>
                             <Image src={this.props.logo} />
                         </Grid.Column>
-                        <Grid.Column width={11} textAlign="left">
+                        <Grid.Column width={11}>
                             <Grid.Row>
                                 <Header as="h3" style={{ fontSize: "1.5em" }}>
                                     {this.props.title}

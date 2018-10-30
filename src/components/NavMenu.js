@@ -9,9 +9,6 @@ class NavMenu extends Component {
                 <Menu.Item as="a" header>
                     <Image size="mini" src={logo} />
                 </Menu.Item>
-                <Menu.Item as="a" href="#about">
-                    About me
-                </Menu.Item>
                 <Menu.Item as="a" href="#work">
                     Work
                 </Menu.Item>

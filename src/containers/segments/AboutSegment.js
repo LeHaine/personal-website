@@ -7,7 +7,7 @@ class AboutSegment extends Component {
             <Segment
                 id={this.props.id}
                 className="AboutSegment"
-                style={{ padding: "8em 0em" }}
+                style={{ padding: "3em 0em" }}
             >
                 <Grid container stackable verticalAlign="top">
                     <Grid.Row>

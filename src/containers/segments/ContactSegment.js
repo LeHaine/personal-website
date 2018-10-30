@@ -14,7 +14,7 @@ class ContactSegment extends Component {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                Github
+                                GitHub
                             </a>
                         </Grid.Column>
 
