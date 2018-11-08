@@ -5,11 +5,27 @@ import Project from "../../components/Project";
 import sagesSkyScreenShot from "../../static/sages-sky.png";
 import { fetchUserEvents } from "../../state/github/actions";
 class ProjectsSegment extends Component {
+    state = {
+        event: null
+    };
+
     componentDidMount() {
         this.props.getEvents();
     }
+
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.events) {
+            nextProps.events.some(event => {
+                if (event.type === "PushEvent") {
+                    this.setState({ event: event });
+                    return true;
+                }
+                return false;
+            });
+        }
+    }
+
     render() {
-        console.log(this.props.events);
         return (
             <Segment id={this.props.id} className="ProjectsSegment">
                 <Grid container stackable verticalAlign="middle">
@@ -65,11 +81,11 @@ class ProjectsSegment extends Component {
                         </Grid.Column>
                     </Grid.Row>
 
-                    {this.props.events && (
+                    {this.state.event && (
                         <Grid.Row>
                             <Grid.Column width={4}>
                                 {new Date(
-                                    this.props.events[0].created_at
+                                    this.state.event.created_at
                                 ).toLocaleString()}
                             </Grid.Column>
                             <Grid.Column width={4}>
@@ -77,14 +93,10 @@ class ProjectsSegment extends Component {
                                 <a
                                     href={
                                         "https://github.com/" +
-                                        this.props.events[0].repo.name
+                                        this.state.event.repo.name
                                     }
                                 >
-                                    {
-                                        this.props.events[0].repo.name.split(
-                                            "/"
-                                        )[1]
-                                    }
+                                    {this.state.event.repo.name.split("/")[1]}
                                 </a>
                             </Grid.Column>
                             <Grid.Column width={6}>
@@ -92,14 +104,13 @@ class ProjectsSegment extends Component {
                                 <a
                                     href={
                                         "https://github.com/" +
-                                        this.props.events[0].repo.name +
+                                        this.state.event.repo.name +
                                         "/commit/" +
-                                        this.props.events[0].payload.commits[0]
-                                            .sha
+                                        this.state.event.payload.commits[0].sha
                                     }
                                 >
                                     {
-                                        this.props.events[0].payload.commits[0]
+                                        this.state.event.payload.commits[0]
                                             .message
                                     }
                                 </a>
